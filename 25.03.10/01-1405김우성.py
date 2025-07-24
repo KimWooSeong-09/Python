@@ -1,0 +1,10 @@
+print("[ 주의 ] 공백을 기준으로 입력할것. 예) 3 6")
+a, b = map(int, input("입력 : ").split())
+
+print(f'{a} + {b} = {a+b}')
+print(f'{a} - {b} = {a-b}')
+print(f'{a} * {b} = {a*b}')
+print(f'{a} ** {b} = {a**b}')
+print(f'{a} / {b} = {a/b}')
+print(f'{a} // {b} = {a//b}')
+print(f'{a} % {b} = {a%b}')
